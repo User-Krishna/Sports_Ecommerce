@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+  <!-- Glidejs StyleSheet -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css" />
+
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+  <!-- StyleSheet -->
+  <link rel="stylesheet" href="CSS/list.css" />
+  <title>Codevo Shop</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/cropped-krishna-logo3.png" alt="" width="180px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+
+                </ul>
+            </nav>
+            <a href="cart.html"> <img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+
+    </div>
+
+
+  
+
+    <!-- Filtered Products -->
+    <section class="section sort-category">
+      <div class="title-container ">
+        <div class="section-titles">
+          <div class="section-title active filter-btn" data-id="trend">
+            <span class="dot"></span>
+            <h1 class="primary-title">Trending Products</h1>
+          </div>
+        </div>
+
+        <div class="section-titles">
+          <div class="section-title filter-btn" data-id="special">
+            <span class="dot"></span>
+            <h1 class="primary-title">Special Products</h1>
+          </div>
+        </div>
+
+        <div class="section-titles">
+          <div class="section-title filter-btn" data-id="featured">
+            <span class="dot"></span>
+            <h1 class="primary-title">Featured Products</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-center container">
+         <div class="product">
+          <div class="product-header">
+            <img src="images/113.jpg" alt="product">
+          </div>
+          <div class="product-footer">
+            <h3>Men Casual Shoe</h3>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="product-price">
+              <h4>$300</h4>
+            </div>
+          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <i class="far fa-eye"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="far fa-heart"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-sync"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="product">
+          <div class="product-header">
+            <img src="images/113.jpg" class='small'alt="product">
+          </div>
+          <div class="product-footer">
+            <h3>Men Casual Shoe</h3>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="product-price">
+              <h4>$2500.99</h4>
+            </div>
+          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <i class="far fa-eye"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="far fa-heart"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-sync"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="product">
+          <div class="product-header">
+            <img src="images/gary2.jpg" class='small' alt="product">
+          </div>
+          <div class="product-footer">
+            <h3>Men Casual Shoe</h3>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="product-price">
+              <h4>$3000.99</h4>
+            </div>
+          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <i class="far fa-eye"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="far fa-heart"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-sync"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="product">
+          <div class="product-header">
+            <img src="images/mrf1.jpg" class='small' alt="product">
+          </div>
+          <div class="product-footer">
+            <h3>Men Casual Shoe</h3>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="product-price">
+              <h4>$3000.99</h4>
+            </div>
+          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <i class="far fa-eye"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="far fa-heart"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-sync"></i>
+              </a>
+            </li>
+          </ul>
+        </div> 
+      </div>
+    </section>
+
+    <!-- Grid -->
+    <section class="gallary container">
+      <figure class="gallary-item item-1">
+        <img src="./images/gary2.jpg" alt="" class="gallary-img">
+        <div class="content">
+          <h2>Our Popular Products</h2>
+          <a href="#">View more</a>
+        </div>
+      </figure>
+
+      <figure class="gallary-item item-2">
+        <img src="./images/grid_2.jpg" alt="" class="gallary-img">
+        <div class="content">
+          <h2>Winter Collections</h2>
+        </div>
+      </figure>
+
+      <figure class="gallary-item item-3">
+        <img src="./images/grid_3.jpg" alt="" class="gallary-img">
+        <div class="content">
+          <h2>Summer Collections</h2>
+        </div>
+      </figure>
+
+      <figure class="gallary-item item-4">
+        <img src="./images/grid_4.jpg" alt="" class="gallary-img">
+        <div class="content">
+          <h2>Up to 70% OFF Spring Sale!</h2>
+        </div>
+      </figure>
+    </section>
+
+    <!-- All Products -->
+    <section class="section" id="shop">
+      <div class="title-container">
+        <div class="section-titles">
+          <div class="section-title active" data-id="latest">
+            <span class="dot"></span>
+            <h1 class="primary-title">All Products</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="shop-center product-center container">
+
+      </div>
+    </section>
+
+    <div class="section brands container">
+      <div class="glide" id="glide2">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">
+              <img src="./images/brand_1.png" alt="">
+            </li>
+            <li class="glide__slide">
+              <img src="./images/brand_2.png" alt="">
+            </li>
+            <li class="glide__slide">
+              <img src="./images/brand_3.png" alt="">
+            </li>
+            <li class="glide__slide">
+              <img src="./images/brand_2.png" alt="">
+            </li>
+            <li class="glide__slide">
+              <img src="./images/brand_1.png" cla alt="">
+            </li>
+            <li class="glide__slide">
+              <img src="./images/brand_3.png" alt="">
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Latest Products -->
+    <section class="section latest-products" id="new">
+      <div class="title-container">
+        <div class="section-titles">
+          <div class="section-title active" data-id="latest">
+            <span class="dot"></span>
+            <h1 class="primary-title">Latest Products</h1>
+          </div>
+        </div>
+      </div>
+      <div class="latest-center product-center container"></div>
+
+    </section>
+
+    <!-- blog -->
+    <section class="section blog" id="blog">
+      <div class="title-container">
+        <div class="section-titles">
+          <div class="section-title active">
+            <span class="dot"></span>
+            <h1 class="primary-title">Latest News</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-container container">
+        <div class="glide" id="glide3">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="blog-card">
+                  <div class="card-header">
+                    <img src="./images/grid_1.jpg" alt="">
+                  </div>
+                  <div class="card-footer">
+                    <h3>Styling White Shirts After A Cool Day</h3>
+                    <span>By Admin</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
+                      provident rem sed minus natus unde vel modi!</p>
+                    <a href="#"><button>Read More</button></a>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="blog-card">
+                  <div class="card-header">
+                    <img src="./images/grid_2.jpg" alt="">
+                  </div>
+                  <div class="card-footer">
+                    <h3>Styling White Shirts After A Cool Day</h3>
+                    <span>By Admin</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
+                      provident rem sed minus natus unde vel modi!</p>
+                    <a href="#"><button>Read More</button></a>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="blog-card">
+                  <div class="card-header">
+                    <img src="./images/grid_3.jpg" alt="">
+                  </div>
+                  <div class="card-footer">
+                    <h3>Styling White Shirts After A Cool Day</h3>
+                    <span>By Admin</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
+                      provident rem sed minus natus unde vel modi!</p>
+                    <a href="#"><button>Read More</button></a>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="blog-card">
+                  <div class="card-header">
+                    <img src="./images/grid_4.jpg" alt="">
+                  </div>
+                  <div class="card-footer">
+                    <h3>Styling White Shirts After A Cool Day</h3>
+                    <span>By Admin</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
+                      provident rem sed minus natus unde vel modi!</p>
+                    <a href="#"><button>Read More</button></a>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="blog-card">
+                  <div class="card-header">
+                    <img src="./images/grid_2.jpg" alt="">
+                  </div>
+                  <div class="card-footer">
+                    <h3>Styling White Shirts After A Cool Day</h3>
+                    <span>By Admin</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium, numquam non
+                      provident rem sed minus natus unde vel modi!</p>
+                    <a href="#"><button>Read More</button></a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Recent Products -->
+    <section class="section recent-products" id="recent">
+      <div class="title-container">
+        <div class="section-titles">
+          <div class="section-title active" data-id="recent">
+            <span class="dot"></span>
+            <h1 class="primary-title">Recent View</h1>
+          </div>
+        </div>
+      </div>
+      <div class="recent-center product-center container">
+
+      </div>
+    </section>
+
+    <!-- Facility -->
+    <section class="facility section" id="facility">
+        <div class="facility-contianer container">
+          <div class="facility-box">
+            <div class="facility-icon">
+              <i class="fas fa-plane"></i>
+            </div>
+            <p>FREE SHIPPING WORLD WIDE</p>
+          </div>
+
+          <div class="facility-box">
+            <div class="facility-icon">
+              <i class="fas fa-credit-card"></i>
+            </div>
+            <p>100% MONEY BACK GUARANTEE</p>
+          </div>
+
+          <div class="facility-box">
+            <div class="facility-icon">
+              <i class="far fa-credit-card"></i>
+            </div>
+            <p>MANY PAYMENT GATWAYS</p>
+          </div>
+
+          <div class="facility-box">
+            <div class="facility-icon">
+              <i class="fas fa-headset"></i>
+            </div>
+            <p>24/7 ONLINE SUPPORT</p>
+          </div>
+        </div>
+    </section>
+  </main>
+
+  <!-- PopUp -->
+  <div class="popup">
+    <div class="popup-content">
+      <div class="popup-close">
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="popup-left">
+        <div class="popup-img">
+          <img  src="./images/cat2.jpg" alt="popup">
+        </div>
+      </div>
+      <div class="popup-right">
+        <div class="right-content">
+          <h1>Get Discount <span>30%</span> Off</h1>
+          <p>Sign up to our blogletter and save 30% for you next purchase. No spam, we promise!
+          </p>
+          <form action="#">
+            <input type="email" placeholder="Enter your email..." class="popup-form">
+            <a href="#">Subscribe</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="conatiner">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3> Download Our App</h3>
+                <p>Download App For Aneroid And IOS Mobile Phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/cropped-krishna-logo3.png">
+                <p>Our Purpose Is To Sustainably Make The Pleasure And Benefits Of Sports Accessible To The Many.
+                </p>
+            </div>
+            <div class="footer-col-3">
+                <h3> Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3> Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright KrishnaDas.Com</p>
+    </div>
+</div>
+
+
+  <!-- Glidejs Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+  <!-- Custom Script -->
+  <script src="product.js"></script>
+  <script src="slider.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
