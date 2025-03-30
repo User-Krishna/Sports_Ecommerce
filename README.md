@@ -112,7 +112,7 @@ This project is open-source and available under the **MIT License**.
 ## 📬 **Get in Touch**
 
 💬 Have questions or suggestions? Reach out via:
-📧 **Email:** [your_email@example.com](mailto:dask84779@gmail.com)
-🔗 **GitHub:** [Your GitHub Profile](https://github.com/User-Krishna)
+📧 **Email:** [dask84779@gmail.com](mailto:dask84779@gmail.com)
+🔗 **GitHub:** [User-Krishna](https://github.com/User-Krishna)
 
 🌟 **If you like this project, don't forget to star ⭐ the repo!**
